@@ -41,7 +41,7 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      url: shivamgargweb-d8athwcnekg2d5dc.centralindia-01.azurewebsites.net
     
     steps:
       - name: Download artifact from build job
